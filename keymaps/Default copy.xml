@@ -1,0 +1,60 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="AddToFavoritesPopup" />
+  <action id="Console.TableResult.EditFilterCriteria" />
+  <action id="Console.TableResult.SetDefault" />
+  <action id="Editor Redo">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="ExpandAllToLevel1">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="1" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad1" />
+    <keyboard-shortcut first-keystroke="shift ctrl 1" />
+  </action>
+  <action id="ExpandAllToLevel2">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="2" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad2" />
+    <keyboard-shortcut first-keystroke="shift ctrl 2" />
+  </action>
+  <action id="ExpandAllToLevel3">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="3" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad3" />
+    <keyboard-shortcut first-keystroke="shift ctrl 3" />
+  </action>
+  <action id="ExpandAllToLevel4">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="4" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad4" />
+    <keyboard-shortcut first-keystroke="shift ctrl 4" />
+  </action>
+  <action id="ExpandAllToLevel5">
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="5" />
+    <keyboard-shortcut first-keystroke="shift ctrl multiply" second-keystroke="numpad5" />
+    <keyboard-shortcut first-keystroke="shift ctrl 5" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+  </action>
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+  </action>
+  <action id="ShowReformatFileDialog">
+    <keyboard-shortcut first-keystroke="shift ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
+  </action>
+  <action id="ToggleBookmark1" />
+  <action id="ToggleBookmark2" />
+  <action id="ToggleBookmark3" />
+  <action id="ToggleBookmark4" />
+  <action id="ToggleBookmark5" />
+  <action id="Tool_External Tools_fixer">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
+</keymap>

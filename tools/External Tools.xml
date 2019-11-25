@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="fixer" description="php-cs-fixer.bat fix" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="php-cs-fixer.bat" />
+      <option name="PARAMETERS" value="fix --rules=@Symfony,-yoda_style $FileName$" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+  <tool name="fixer dir" description="php-cs-fixer.bat fix" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="php-cs-fixer.bat" />
+      <option name="PARAMETERS" value="fix --rules=@Symfony,-yoda_style $FileDir$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

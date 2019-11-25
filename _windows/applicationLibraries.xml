@@ -1,0 +1,15 @@
+<application>
+  <component name="libraryTable">
+    <library name="Node Modules" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://E:/GOD/code/lz-admin/node_modules" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://E:/GOD/code/lz-admin/node_modules" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+  </component>
+</application>
