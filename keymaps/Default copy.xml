@@ -57,4 +57,7 @@
   <action id="Tool_External Tools_fixer">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
+  <action id="Tool_Php CS Fixer_格式化文件">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
 </keymap>
