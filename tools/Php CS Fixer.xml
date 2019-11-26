@@ -9,7 +9,7 @@
   <tool name="格式化文件" description="格式化文件" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
       <option name="COMMAND" value="php-cs-fixer.bat" />
-      <option name="PARAMETERS" value="fix --rules=@Symfony,@PSR2,-yoda_style,-increment_style ./$FileName$" />
+      <option name="PARAMETERS" value="fix --rules=@Symfony,@PSR2,-yoda_style,-increment_style,-no_superfluous_phpdoc_tags ./$FileName$" />
       <option name="WORKING_DIRECTORY" value="$FileDir$" />
     </exec>
   </tool>
