@@ -26,11 +26,7 @@
           <configuration_options>
             <configuration_option name="include_path" value=".:/www/server/php/72/lib/php" />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.7.2">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -69,9 +65,9 @@
             <extension name="sockets" />
             <extension name="sqlite3" />
             <extension name="standard" />
+            <extension name="swoole" />
             <extension name="sysvsem" />
             <extension name="tokenizer" />
-            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
