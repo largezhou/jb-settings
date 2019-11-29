@@ -1,14 +1,8 @@
 <application>
-  <component name="MessDetector">
-    <phpmd_settings_migrated />
-  </component>
   <component name="PhpCSFixer">
     <phpcsfixer_settings>
       <phpcs_fixer_by_interpreter interpreter_id="cd42695e-eb3e-42bf-b7dc-657e233d6618" standards="PSR1;PSR2;Symfony;DoctrineAnnotation;PHP70Migration;PHP71Migration" tool_path="/usr/local/bin/php-cs-fixer" />
     </phpcsfixer_settings>
-  </component>
-  <component name="PhpCodeSniffer">
-    <phpcs_settings_migrated />
   </component>
   <component name="PhpInterpreters">
     <interpreters>
@@ -26,7 +20,11 @@
           <configuration_options>
             <configuration_option name="include_path" value=".:/www/server/php/72/lib/php" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="2.7.2">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="PDO" />
@@ -68,6 +66,7 @@
             <extension name="swoole" />
             <extension name="sysvsem" />
             <extension name="tokenizer" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
@@ -81,7 +80,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="cd42695e-eb3e-42bf-b7dc-657e233d6618" load_method="CUSTOM_LOADER" configuration_file_path="/mnt/f/code/lz-shop/phpunit.xml" custom_loader_path="/mnt/f/code/lz-shop/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="cd42695e-eb3e-42bf-b7dc-657e233d6618" configuration_file_path="/mnt/f/code/lz-shop/phpunit.xml" custom_loader_path="/mnt/f/code/lz-shop/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </application>
