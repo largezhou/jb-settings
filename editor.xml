@@ -1,5 +1,7 @@
 <application>
+  <component name="DaemonCodeAnalyzerSettings" profile="LZ" />
   <component name="DefaultFont">
-    <option name="FONT_SIZE" value="16" />
+    <option name="FONT_SIZE" value="18" />
+    <option name="FONT_FAMILY" value="Monaco" />
   </component>
 </application>
