@@ -1,0 +1,27 @@
+<application>
+  <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
+    <group value="Tool_Php CS Fixer_格式化文件" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Main menu" />
+      <path value="Tools" />
+      <path value="External Tools" />
+      <path value="Php CS Fixer" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_Php CS Fixer_格式化文件" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Project View Popup Menu" />
+      <path value="External Tools" />
+      <path value="Php CS Fixer" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Tool_Php CS Fixer_格式化文件" is_action="true" action_type="1" position="0">
+      <path value="root" />
+      <path value="Scope View Popup Menu" />
+      <path value="Project View Popup Menu" />
+      <path value="External Tools" />
+      <path value="Php CS Fixer" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+  </component>
+</application>
