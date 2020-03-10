@@ -2,7 +2,7 @@
   <component name="DaemonCodeAnalyzerSettings" profile="LZ" />
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="18" />
-    <option name="FONT_FAMILY" value="Monaco" />
+    <option name="FONT_FAMILY" value="Microsoft YaHei UI" />
   </component>
   <component name="EditorSettings">
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
